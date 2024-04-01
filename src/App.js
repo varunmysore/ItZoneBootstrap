@@ -15,30 +15,14 @@ import DataSafety from "./components/service/DataSafety";
 import DownloadSoftware from "./components/service/DownloadSoftware";
 import CctvInstallation from "./components/service/CctvInstallation";
 import LaptopSpare from "./components/service/LaptopSpare";
-import Navbarfile from "./components/Navbarfile/Navbarfile";
-import Hero from "./components/Hero/Hero";
+
 import "./App.css";
-import AppServices from "./components/AppServices/AppServices";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Navbarfile from "./components/Navbarfile/Navbarfile";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="App">
-        <header id="header">
-          <Navbarfile />
-        </header>
-        <main>
-          <Hero />
-          <About />
-          <AppServices />
-          <Contact />
-        </main>
-        <footer id="footer">
-          <Footer />
-        </footer>
-      </div>
+      <Navbarfile />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
