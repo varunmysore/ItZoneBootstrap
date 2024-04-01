@@ -1,0 +1,26 @@
+.heroImage {
+  width: 100%;
+  object-fit: cover;
+  height: 650px;
+  opacity: 1.9;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+.carousel-caption {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
