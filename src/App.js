@@ -11,13 +11,13 @@ import {
 
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
-import DataSafety from "./components/service/DataSafety";
-import DownloadSoftware from "./components/service/DownloadSoftware";
-import CctvInstallation from "./components/service/CctvInstallation";
-import LaptopSpare from "./components/service/LaptopSpare";
 
 import "./App.css";
 import Navbarfile from "./components/Navbarfile/Navbarfile";
+import CCTVServices from "./components/Products/CCTVServices";
+import EnterpriseWIFI from "./components/Products/EnterpriseWIFI";
+import HardwareAndNetworking from "./components/Products/HardwareAndNetworking";
+import LaptopAndComputer from "./components/Products/LaptopAndComputer";
 
 const App = () => {
   return (
@@ -27,10 +27,13 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/datasafety" element={<DataSafety />} />
-          <Route path="/downloadsoftware" element={<DownloadSoftware />} />
-          <Route path="/cctvinstallation" element={<CctvInstallation />} />
-          <Route path="/laptopspare" element={<LaptopSpare />} />
+          <Route path="/cctvservices" element={<CCTVServices />} />
+          <Route path="/enterprisewifi" element={<EnterpriseWIFI />} />
+          <Route
+            path="/hardwareandnetworking"
+            element={<HardwareAndNetworking />}
+          />
+          <Route path="/laptopandcomputer" element={<LaptopAndComputer />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -31,19 +31,19 @@ const Navbarfile = () => {
               <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>
-              <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/datasafety">
-                  Data safety
+              <NavDropdown title="Products" id="basic-nav-dropdown">
+                <NavDropdown.Item as={Link} to="/cctvservices">
+                  CCTV Services
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/downloadsoftware">
-                  Download software
+                <NavDropdown.Item as={Link} to="/enterprisewifi">
+                  Enterprise WIFI
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/cctvinstallation">
-                  CCTV installation
+                <NavDropdown.Item as={Link} to="/hardwareandnetworking">
+                  Hardware and Networking
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/laptopspare">
-                  laptop spare
+                <NavDropdown.Item as={Link} to="/laptopandcomputer">
+                  Laptop and Computer
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
